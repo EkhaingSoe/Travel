@@ -8,6 +8,7 @@ import ExporsePlaces from './components/ExporsePlaces'
 import Informations from './components/Informations'
 import Partner from './components/Partner'
 import Contact from './components/Contact'
+import Gallery from './components/Gallery'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Blog/>
       <ExporsePlaces/>
       <Informations/>
+      <Gallery/>
       <Partner/>
       <Contact/>
     </div>

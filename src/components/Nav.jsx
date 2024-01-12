@@ -5,26 +5,7 @@ import { CiMenuBurger } from "react-icons/ci";
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    // <div className=" py-3">
-    //   <div className="flex items-center justify-between">
-    //     <div className="flex items-center gap-3">
-    //     <MdTravelExplore className="text-2xl text-orange-700" />
-    //     <h1 className="font-semibold text-lg">Touro</h1>
-    //     </div>
 
-    //       <ul className="flex items-center gap-10">
-    //         <li className="cursor-pointer hover:underline hover:underline-offset-2 hover:text-orange-700">Home</li>
-    //         <li className="cursor-pointer hover:underline hover:underline-offset-2 hover:text-orange-700">Category</li>
-    //         <li className="cursor-pointer hover:underline hover:underline-offset-2 hover:text-orange-700">Home</li>
-    //         <li className="cursor-pointer hover:underline hover:underline-offset-2 hover:text-orange-700">Contact us</li>
-
-    //       </ul>
-    //       <button className="bg-orange-500 text-white px-10 py-2 rounded-md">
-    //         Login
-    //       </button>
-
-    //   </div>
-    // </div>
     <>
       <nav class=" py-2 px-2 bg-white text-sm sticky top-0  z-[99999] ">
         <div class="flex items-center justify-between">

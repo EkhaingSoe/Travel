@@ -1,4 +1,7 @@
 import { PiFlowerLotusThin } from "react-icons/pi";
+export const navs=["Home","Category","Blog","About us"]
+export const quickLinks=["FAQ's","Privacy Policy","Terms and Conditions","Support"]
+
 export const places = [
     "Beach",
     "Mountain",
@@ -74,29 +77,54 @@ export const information = [{
     }
 ]
 
-export const partner = [{
-        id: 1,
-        iconName: "PiFlowerLotusThin",
-        text: "aven"
+export const images=[
+    {
+        id:1,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
     },
     {
-        id: 2,
-        icon: "700 + ",
-        text: "HEXLAB"
+        id:2,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
     },
     {
-        id: 1,
-        icon: "200 + ",
-        text: "kanba"
+        id:3,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
     },
     {
-        id: 1,
-        icon: "2k+ ",
-        text: "liva"
+        id:4,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
     },
     {
-        id: 1,
-        icon: "2k+ ",
-        text: "amara"
+        id:5,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+    },
+    {
+        id:6,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+    },
+    {
+        id:7,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+    },
+    {
+        id:8,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+    },
+    {
+        id:9,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+    },
+    {
+        id:10,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+    },
+    {
+        id:11,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+    },
+    {
+        id:12,
+        href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-12.jpg"
     }
 ]
+
