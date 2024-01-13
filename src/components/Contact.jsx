@@ -8,6 +8,7 @@ import { navs, quickLinks } from "../data";
 import { IoLocationOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
+import { nanoid } from 'nanoid'
 
 const Contact = () => {
   return (
@@ -47,13 +48,13 @@ const Contact = () => {
         <div>
           <h1 className="font-semibold text-lg mb-3">Quick Link</h1>
           {navs.map((nav) => {
-            return <h1 className="text-gray-500  text-xs md:text-[13px] mb-2">{nav}</h1>;
+            return <h1 key={nanoid()} className="text-gray-500  text-xs md:text-[13px] mb-2">{nav}</h1>;
           })}
         </div>
         <div>
           <h1 className="font-semibold text-lg mb-3">Quick Link</h1>
           {quickLinks.map((ql) => {
-            return <h1 className="text-gray-500 text-xs md:text-[13px] mb-2">{ql}</h1>;
+            return <h1 key={nanoid()} className="text-gray-500 text-xs md:text-[13px] mb-2">{ql}</h1>;
           })}
         </div>
         <div>

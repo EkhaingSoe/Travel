@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import Select from "react-select";
-import Flatpickr from 'react-flatpickr';
-import 'flatpickr/dist/themes/material_blue.css';
-
+import Flatpickr from "react-flatpickr";
+import "flatpickr/dist/themes/material_blue.css";
 
 const Home = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
@@ -27,7 +26,6 @@ const Home = () => {
       color: state.isSelected ? "white" : "black",
     }),
   };
-  
 
   const options = [
     { value: "chocolate", label: "Chocolate" },
@@ -50,18 +48,21 @@ const Home = () => {
       <div className="grid grid-cols-1 xl:grid-cols-5 gap-6 mt-6">
         <div className="col-span-1 xl:col-span-3 flex items-center justify-center xl:justify-start">
           <div className="">
-            <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
-              Explore
-            </h1>
-            <div className="flex items-center gap-10 justify-center xl:justify-start">
-              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 ">
-                Beautiful
+            <div className=" ">
+              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
+                Explore
               </h1>
-              <PiStarFourFill className="text-5xl " />
+              <div className="flex items-center gap-10 justify-center xl:justify-start">
+                <h1 className="text-4xl xl:text-6xl font-semibold mb-3 ">
+                  Beautiful
+                </h1>
+                <PiStarFourFill className="text-5xl " />
+              </div>
+              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
+                World
+              </h1>
             </div>
-            <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
-              World
-            </h1>
+
             {/* search  */}
 
             <div className="grid grid-cols-1 md:grid-cols-4 shadow-lg text-sm lg:text-base  gap-x-12">
@@ -77,12 +78,12 @@ const Home = () => {
                 />
               </div>
               <div>
-                <div className="flex flex-col gap-2 px-6 py-2">
+                <div className="flex flex-col gap-2 px-4 py-2">
                   <label htmlFor="" className="text-cyan-500 text-[13px]  ">
                     Date
                   </label>
                   <Flatpickr
-                  className="outline-none border rounded-[8px] text-[13px] w-full px-3 py-[7px] md:w-[150px]"
+                    className="outline-none border rounded-[8px] text-[13px] w-full px-3 py-[8px]  md:w-[150px]"
                     placeholder="12/2/2023"
                     value={selectedDate}
                     onChange={handleDateChange}
@@ -104,9 +105,8 @@ const Home = () => {
                   className="w-full md:w-[150px] text-xs"
                   styles={customStyles}
                 />
-              
               </div>
-              
+
               <div className="bg-cyan-400 py-4 md:rounded-r-lg flex items-center justify-center text-white">
                 <h1>Search</h1>
               </div>

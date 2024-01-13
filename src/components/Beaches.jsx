@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import { nanoid } from 'nanoid'
 
 const Beaches = ({ beaches }) => {
     return (
@@ -7,9 +8,9 @@ const Beaches = ({ beaches }) => {
             {
                 beaches.map((beach) => {
                     return (
-                        <div>
-                            <Card key={beach.id} beach={beach} />
-                        </div>
+                       
+                            <Card key={nanoid()} beach={beach} />
+                       
                     )
                 })
             }
