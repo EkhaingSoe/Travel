@@ -65,7 +65,7 @@ const Home = () => {
 
             {/* search  */}
 
-            <div className="grid grid-cols-1 md:grid-cols-4 shadow-lg text-sm lg:text-base  gap-x-12">
+            <div className="grid  grid-cols-1 md:grid-cols-4 shadow-lg text-sm lg:text-base  gap-x-12">
               <div className="flex flex-col gap-2 px-4 py-2">
                 <label htmlFor="" className="text-cyan-500 text-[13px]  ">
                   Located in

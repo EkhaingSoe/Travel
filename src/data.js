@@ -32,6 +32,7 @@ export const beaches = [{
         location: 'Japan'
     },
 ];
+
 export const mountains = [{
         id: 1,
         href: "https://plus.unsplash.com/premium_photo-1668181103252-352173f7ada7?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -171,6 +172,37 @@ export const images=[
     {
         id:12,
         href:"https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-12.jpg"
+    }
+]
+
+export const people = [
+    {
+        id:1,
+        image:"/images/people1.jpg"
+    },
+    {
+        id:2,
+        image:"/images/people2.jpg"
+    },
+    {
+        id:3,
+        image:"/images/people3.jpg"
+    },
+    {
+        id:4,
+        image:"/images/people4.jpg"
+    },
+    {
+        id:5,
+        image:"/images/people5.jpg"
+    },
+    {
+        id:6,
+        image:"/images/people6.jpg"
+    },
+    {
+        id:7,
+        image:"/images/people7.jpg"
     }
 ]
 

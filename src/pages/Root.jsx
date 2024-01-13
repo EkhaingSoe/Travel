@@ -8,6 +8,7 @@ import Informations from "../components/Informations";
 import Contact from "../components/Contact";
 import Gallery from "../components/Gallery";
 import Partner from "../components/Partner";
+import Users from '../components/Users';
 
 const Root = () => {
   return (
@@ -20,6 +21,7 @@ const Root = () => {
         <Gallery />
         <Partner />
         <Contact />
+        <Users/>
     </div>
   )
 }
