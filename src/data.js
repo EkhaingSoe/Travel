@@ -55,6 +55,52 @@ export const mountains = [{
     },
 ];
 
+export const waterfalls = [{
+    id: 1,
+    href: "https://plus.unsplash.com/premium_photo-1668181103252-352173f7ada7?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    text: "waterfall1",
+    range: 4.9,
+    location: "Italy"
+},
+{
+    id: 2,
+    href: "https://images.unsplash.com/photo-1643654565793-db5ad6a5ecf7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    text: "waterfall2",
+    range: 4.8,
+    location: 'Romia',
+},
+{
+    id: 3,
+    href: "https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnVqaXxlbnwwfHwwfHx8MA%3D%3D",
+    text: "waterfall3",
+    range: 4.8,
+    location: 'Japan'
+},
+];
+
+export const icebergs = [{
+    id: 1,
+    href: "https://plus.unsplash.com/premium_photo-1668181103252-352173f7ada7?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    text: "icebergs1",
+    range: 4.9,
+    location: "Italy"
+},
+{
+    id: 2,
+    href: "https://images.unsplash.com/photo-1643654565793-db5ad6a5ecf7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    text: "icebergs2",
+    range: 4.8,
+    location: 'Romia',
+},
+{
+    id: 3,
+    href: "https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnVqaXxlbnwwfHwwfHx8MA%3D%3D",
+    text: "icebergs3",
+    range: 4.8,
+    location: 'Japan'
+},
+];
+
 export const information = [{
         id: 1,
         number: "24 + ",

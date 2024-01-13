@@ -7,7 +7,7 @@ const Nav = () => {
   return (
 
     <>
-      <nav class=" py-2 px-2 bg-white text-sm sticky top-0  z-[99999] ">
+      <nav class=" py-2 px-4 md:px-20 shadow-md bg-white text-sm sticky top-0  z-[99999] font-poppins ">
         <div class="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <MdTravelExplore className="text-2xl text-orange-700" />

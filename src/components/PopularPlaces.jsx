@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import Title from '../Title'
 import Card from './Card'
-import { beaches, places ,mountains } from '../data'
+import { beaches, places ,mountains, waterfalls, icebergs } from '../data'
 import Places from './Places'
 import Beaches from './Beaches'
 import Mountain from './Mountain'
+import Waterfall from './Waterfall'
+import Icebergs from './Icebergs'
+import Allpopularplaces from '../pages/Allpopularplaces'
 
 const PopularPlaces = () => {
     const [selectedPlace, setSelectedPlace] = useState("Beach");
@@ -20,9 +23,11 @@ const PopularPlaces = () => {
           case 'Mountain':
             return <Mountain mountains={mountains} />;
           case 'Waterfall':
-            return <Beaches beaches={beaches} />;
+            return <Waterfall waterfalls={waterfalls} />;
             case 'Icebergs':
-            return <Beaches beaches={beaches} />;
+            return <Icebergs icebergs={icebergs} />;
+            case "View All":
+              return <Allpopularplaces beaches={beaches} mountains={mountains} waterfalls={waterfalls} icebergs={icebergs} />
           default:
             return null;
         }

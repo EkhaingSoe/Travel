@@ -58,19 +58,19 @@ const Contact = () => {
         </div>
         <div>
           <h1 className="font-semibold text-lg mb-3">Contact Us</h1>
-          <div className="flex items-start gap-2 mb-3">
+          <div className="flex items-start  gap-2 cursor-pointer mb-3">
             <IoLocationOutline className="text-2xl text-orange-600 " />
             <h1 className="text-gray-500 text-xs md:text-[13px] leading-5">
               San Yeik Nyein 2nd Street, Kamaryut Town, Yangon
             </h1>
           </div>
-          <div className="flex items-start gap-2 mb-3">
+          <div className="flex items-start  gap-2 cursor-pointer mb-3">
             <FiPhone  className=" text-orange-600 " />
             <h1 className="text-gray-500 text-xs md:text-[13px] leading-5">
               +95 9456639939
             </h1>
           </div>
-          <div className="flex items-start gap-2">
+          <div className="flex items-start  gap-2 cursor-pointer">
             <MdOutlineEmail  className=" text-orange-600 " />
             <h1 className="text-gray-500 text-xs md:text-[13px] leading-5">
               eikhaingsoe.ycc@gmail.com
