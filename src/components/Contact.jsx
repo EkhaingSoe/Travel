@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pb-10 border-b">
         <div className="col-span-2 md:col-span-1">
-          <div className="flex items-center gap-3 mb-3">
+        <div className="flex items-center gap-3 mb-3">
             <MdTravelExplore className="text-2xl text-orange-700" />
             <h1 className="font-semibold text-lg">Touro</h1>
           </div>

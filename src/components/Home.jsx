@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import Select from "react-select";
 import Flatpickr from "react-flatpickr";
 import "flatpickr/dist/themes/material_blue.css";
+import Typed from "typed.js";
 
 const Home = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
@@ -43,22 +44,39 @@ const Home = () => {
     setSelectedOptions(selected);
   };
 
+  useEffect(() => {
+    const options = {
+      strings: ["Exporse", "Beautiful", "World"],
+      typeSpeed: 200,
+      backSpeed: 200,
+      showCursor: false,
+      loop: true,
+    };
+
+    const typed = new Typed(".heading_type", options);
+
+    return () => {
+      typed.destroy();
+    };
+
+  }, []);
+
   return (
-    <div className=" h-screen flex items-center">
+    <div className=" my-10 md:my-20">
       <div className="grid grid-cols-1 xl:grid-cols-5 gap-6 mt-6">
         <div className="col-span-1 xl:col-span-3 flex items-center justify-center xl:justify-start">
           <div className="">
             <div className=" ">
-              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
-                Explore
+              <h1 className="text-4xl heading_type xl:text-6xl font-semibold mb-3 text-center xl:text-left">
+                Explore Beautiful World
               </h1>
               <div className="flex items-center gap-10 justify-center xl:justify-start">
-                <h1 className="text-4xl xl:text-6xl font-semibold mb-3 ">
+                <h1 className="text-4xl heading_type2 xl:text-6xl font-semibold mb-3 ">
                   Beautiful
                 </h1>
                 <PiStarFourFill className="text-5xl " />
               </div>
-              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
+              <h1 className="text-4xl heading_type3 xl:text-6xl font-semibold mb-3 text-center xl:text-left">
                 World
               </h1>
             </div>
@@ -115,8 +133,8 @@ const Home = () => {
         </div>
         <div className="col-span-1 xl:col-span-2">
           <img
-            src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
-            className=" mx-auto w-full"
+            src="https://plus.unsplash.com/premium_photo-1679830513869-cd3648acb1db?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlycGxhbmV8ZW58MHx8MHx8fDA%3D"
+            className=" mx-auto h-[400px] object-cover w-full"
             alt=""
           />
         </div>
