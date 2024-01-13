@@ -9,6 +9,7 @@ import Contact from "../components/Contact";
 import Gallery from "../components/Gallery";
 import Partner from "../components/Partner";
 import Users from '../components/Users';
+import ScrollBtn from '../components/ScrollBtn';
 
 const Root = () => {
   return (
@@ -21,7 +22,7 @@ const Root = () => {
         <Gallery />
         <Partner />
         <Contact />
-        <Users/>
+        <ScrollBtn/>
     </div>
   )
 }

@@ -44,7 +44,7 @@ const Home = () => {
   };
 
   return (
-    <div className="my-10">
+    <div className=" h-screen flex items-center">
       <div className="grid grid-cols-1 xl:grid-cols-5 gap-6 mt-6">
         <div className="col-span-1 xl:col-span-3 flex items-center justify-center xl:justify-start">
           <div className="">

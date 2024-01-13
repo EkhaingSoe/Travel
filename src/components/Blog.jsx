@@ -5,6 +5,7 @@ import { SiYourtraveldottv } from "react-icons/si";
 import { MdHotel } from "react-icons/md";
 import { FaWifi } from "react-icons/fa";
 import { IoFastFoodOutline } from "react-icons/io5";
+import Users from "./Users";
 
 
 const Blog = () => {
@@ -17,6 +18,10 @@ const Blog = () => {
           className="mx-auto w-full "
           alt=""
         />
+        <div className="absolute top-10 left-6 bg-white p-5 bg-opacity-80 rounded-md">
+
+        <Users/>
+        </div>
         {/* <div className="px-3 py-3 shadow-lg w-[300px] rounded-md absolute bottom-10 left-32 bg-white">
           <div className="flex items-center gap-2">
             <img

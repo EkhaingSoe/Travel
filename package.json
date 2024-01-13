@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "flatpickr": "^4.6.13",
     "nanoid": "^5.0.4",
     "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
     "react-icons": "^5.0.1",
