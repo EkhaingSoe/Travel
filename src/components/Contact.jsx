@@ -5,9 +5,9 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { navs, quickLinks } from "../data";
-import { IoLocationOutline } from "react-icons/io5";
+import { MdLocationOn } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
-import { MdOutlineEmail } from "react-icons/md";
+import { TfiEmail } from "react-icons/tfi";
 import { nanoid } from 'nanoid'
 
 const Contact = () => {
@@ -60,7 +60,7 @@ const Contact = () => {
         <div>
           <h1 className="font-semibold text-lg mb-3">Contact Us</h1>
           <div className="flex items-start  gap-2 cursor-pointer mb-3">
-            <IoLocationOutline className="text-2xl text-orange-600 " />
+            <MdLocationOn  className="text-4xl md:text-lg text-orange-600 " />
             <h1 className="text-gray-500 text-xs md:text-[13px] leading-5">
               San Yeik Nyein 2nd Street, Kamaryut Town, Yangon
             </h1>
@@ -71,10 +71,10 @@ const Contact = () => {
               +95 9456639939
             </h1>
           </div>
-          <div className="flex items-start  gap-2 cursor-pointer">
-            <MdOutlineEmail  className=" text-orange-600 " />
+          <div className="flex items-start  gap-2 cursor-pointer mb-3">
+            <TfiEmail  className=" text-orange-600 " />
             <h1 className="text-gray-500 text-xs md:text-[13px] leading-5">
-              eikhaingsoe.ycc@gmail.com
+              eikhaingsoe@gmail.com
             </h1>
           </div>
         </div>

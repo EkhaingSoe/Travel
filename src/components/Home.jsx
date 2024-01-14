@@ -44,31 +44,15 @@ const Home = () => {
     setSelectedOptions(selected);
   };
 
-  useEffect(() => {
-    const options = {
-      strings: ["Exporse", "Beautiful", "World"],
-      typeSpeed: 200,
-      backSpeed: 200,
-      showCursor: false,
-      loop: true,
-    };
-
-    const typed = new Typed(".heading_type", options);
-
-    return () => {
-      typed.destroy();
-    };
-
-  }, []);
 
   return (
     <div className=" my-10 md:my-20">
       <div className="grid grid-cols-1 xl:grid-cols-5 gap-6 mt-6">
         <div className="col-span-1 xl:col-span-3 flex items-center justify-center xl:justify-start">
           <div className="">
-            <div className=" ">
-              <h1 className="text-4xl heading_type xl:text-6xl font-semibold mb-3 text-center xl:text-left">
-                Explore Beautiful World
+            <div className="mb-14">
+              <h1 className="text-4xl xl:text-6xl font-semibold mb-3 text-center xl:text-left">
+                Explore
               </h1>
               <div className="flex items-center gap-10 justify-center xl:justify-start">
                 <h1 className="text-4xl heading_type2 xl:text-6xl font-semibold mb-3 ">

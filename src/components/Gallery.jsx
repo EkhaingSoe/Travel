@@ -15,7 +15,7 @@ const Gallery = () => {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="grid ">
+        <div className="grid gap-4 ">
           <div>
             <img
               className="h-auto max-w-full rounded-lg"
@@ -39,7 +39,7 @@ const Gallery = () => {
           </div>
          
         </div>
-        <div className="grid ">
+        <div className="grid gap-4 ">
           <div>
             <img
               className="h-auto max-w-full rounded-lg"
@@ -103,7 +103,7 @@ const Gallery = () => {
           <div>
             <img
               className="h-auto max-w-full rounded-lg"
-              src="https://images.unsplash.com/photo-1689089764982-3c081cc0089a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMXw2c01WalRMU2tlUXx8ZW58MHx8fHx8"
+              src="https://images.unsplash.com/photo-1704775933342-a740af07085f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
               alt=""
             />
           </div>
